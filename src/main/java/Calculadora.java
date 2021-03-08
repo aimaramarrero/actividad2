@@ -8,14 +8,22 @@
  *
  * @author Aimara
  */
+
+
 public class Calculadora {
     private Integer operador1;
     private Integer operador2;
     private Integer operacion;
+   
+   
 
     public Integer getOperador1() {
         return operador1;
     }
+    /**
+     * 
+     * @return  
+     */
 
     public Integer getOperador2() {
         return operador2;
@@ -37,7 +45,7 @@ public class Calculadora {
         this.operacion = operacion;
     }
     
-    
+   
     
     
     
